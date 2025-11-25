@@ -1,0 +1,28 @@
+{
+  "id": "im-the-queen-in-this-life",
+  "name": "I'm the Queen in This Life",
+  "version": "1.0.0",
+  "baseUrl": "https://crunchyscan.fr/lecture-en-ligne/im-the-queen-in-this-life",
+
+  "search": null,  // Pas besoin de recherche si tu veux juste ce manga
+
+  "mangaDetails": {
+    "titleSelector": "h1.entry-title",
+    "authorSelector": ".author a",
+    "descriptionSelector": ".entry-content",
+    "thumbnailSelector": ".thumb img",
+    "statusSelector": ".status"
+  },
+
+  "chapters": {
+    "listSelector": ".chapter-list a",
+    "urlSelector": "a",
+    "nameSelector": "a",
+    "dateSelector": ".date"
+  },
+
+  "pages": {
+    "listSelector": ".reader img",
+    "urlSelector": "img"
+  }
+}
